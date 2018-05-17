@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+
+import itchat
+
+friend_list = itchat.get_friends
+
+itchat.search_friends(userName='@abcdefg1234567')
+
+itchat.auto_login(True)
+
